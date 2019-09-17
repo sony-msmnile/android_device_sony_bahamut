@@ -83,8 +83,8 @@ PRODUCT_COPY_FILES += \
 
 # Boot control
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl.recovery \
-    bootctrl.trinket.recovery \
+    android.hardware.boot@1.1-impl.recovery \
+    bootctrl.trinket.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
