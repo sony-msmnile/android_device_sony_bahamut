@@ -167,7 +167,9 @@ PRODUCT_PACKAGES += \
     RemovePackages
 
 # Soong namespaces
-QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
 
 # Telephony
 PRODUCT_PACKAGES += \
