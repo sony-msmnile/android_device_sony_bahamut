@@ -1,5 +1,10 @@
+This repository contains common device configuration for Sony Xperia 10 II
+
+## Copyright
+
+```
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,10 +18,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-LOCAL_PATH := $(call my-dir)
-
-ifneq ($(filter pdx201,$(TARGET_DEVICE)),)
-  subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
-  $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
-endif
