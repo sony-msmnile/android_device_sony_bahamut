@@ -39,6 +39,10 @@ system/lib/libmmparser_lite.so
 system/lib64/libmmosal.so
 
 # Radio
+system/etc/permissions/privapp-permissions-qti.xml
+system/etc/sysconfig/qti_whitelist.xml
+system/etc/permissions/qti_libpermissions.xml
+system/etc/permissions/qti_permissions.xml
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/app/datastatusnotification/datastatusnotification.apk
 -product/app/embms/embms.apk
