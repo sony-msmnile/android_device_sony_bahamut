@@ -72,9 +72,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 
 TARGET_KERNEL_CONFIG := vendor/pdx201_defconfig
 
-# Permissive (Temp)
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 BUILD_WITHOUT_VENDOR := true
