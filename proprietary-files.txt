@@ -1,4 +1,4 @@
-# Stock package version: Sony/XQ-AU52/XQ-AU52:10/59.0.A.8.33/059000A008003302956232951:user/release-keys
+# Stock package version: Sony/XQ-AU52/XQ-AU52:10/59.0.A.10.5/059000A010000502956232951:user/release-keys
 
 # ANT+
 -system/lib/libantradio.so
