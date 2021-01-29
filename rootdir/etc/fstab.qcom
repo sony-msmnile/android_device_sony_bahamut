@@ -51,6 +51,5 @@ vendor                                                  /vendor                 
 # and fails if it does not find it.
 /dev/block/bootdevice/by-name/misc                      /misc              emmc    defaults                                             defaults
 /dev/block/zram0                                        none               swap    defaults                                             zramsize=1073741824
-/dev/block/bootdevice/by-name/oem                       /oem               ext4    ro,barrier=1                                         wait,slotselect
 /dev/block/bootdevice/by-name/modemst1                  /modem_fs1                emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/modemst2                  /modem_fs2                emmc    defaults                                             defaults
