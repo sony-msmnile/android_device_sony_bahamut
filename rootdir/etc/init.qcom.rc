@@ -1,6 +1,3 @@
-on init
-    umount /oem
-
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
