@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE_COMMON=pdx201
+DEVICE_COMMON=bahamut
 VENDOR=sony
 
 # Load extract_utils and do some sanity checks
@@ -28,7 +28,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "pdx201"
+write_headers "bahamut"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

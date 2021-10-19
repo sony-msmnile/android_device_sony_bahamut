@@ -15,7 +15,7 @@
 //
 
 cc_library {
-    name: "bootctrl.trinket",
+    name: "bootctrl.msmnile",
     defaults: ["bootctrl_hal_defaults"],
     static_libs: ["libgptutils.sony"],
 }

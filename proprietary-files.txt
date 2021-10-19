@@ -1,4 +1,4 @@
-# Stock package version: Sony/XQ-AU52/XQ-AU52:11/59.1.A.0.485/059001A000048503521489921:user/release-keys
+# Stock package version: Sony/J9210_CN/J9210:11/55.2.A.4.268/055002A004026804257406098:user/release-keys
 
 # ANT+
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
@@ -83,9 +83,6 @@ system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/embmslibrary.jar
 system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-
-# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
-system_ext/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
 
 # Radio - IMS
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml

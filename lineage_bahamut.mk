@@ -17,6 +17,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -25,16 +26,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Sony
-PRODUCT_DEVICE := pdx201
+PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := lineage_pdx201
-PRODUCT_MODEL := Xperia 10 II
+PRODUCT_NAME := lineage_bahamut
+PRODUCT_MODEL := Xperia 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
-TARGET_VENDOR_PRODUCT_NAME := pdx201
+TARGET_VENDOR_PRODUCT_NAME := bahamut
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="Sony/XQ-AU52/XQ-AU52 11 59.1.A.0.485 059001A000048503521489921 user/release-keys"
+    PRIVATE_BUILD_DESC="Sony J9210_CN/J9210:11 55.2.A.4.268 055002A004026804257406098 user/release-keys"
 
-BUILD_FINGERPRINT := Sony/XQ-AU52/XQ-AU52:11/59.1.A.0.485/059001A000048503521489921:user/release-keys
+BUILD_FINGERPRINT := Sony/J9210_CN/J9210:11/55.2.A.4.268/055002A004026804257406098:user/release-keys

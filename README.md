@@ -1,10 +1,10 @@
-This repository contains common device configuration for Sony Xperia 10 II
+This repository contains common device configuration for Sony Xperia 5
 
 ## Copyright
 
 ```
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

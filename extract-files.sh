@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE_COMMON=pdx201
+DEVICE_COMMON=bahamut
 VENDOR=sony
 
 # Load extract_utils and do some sanity checks
