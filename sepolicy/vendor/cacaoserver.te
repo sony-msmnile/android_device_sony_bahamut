@@ -1,0 +1,7 @@
+# cacaoserver.te
+type cacaoserver, domain;
+type cacaoserver_exec, exec_type, file_type, system_file_type;
+
+typeattribute cacaoserver coredomain;
+
+init_daemon_domain(cacaoserver)
