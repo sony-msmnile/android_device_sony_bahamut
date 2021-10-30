@@ -1,6 +1,5 @@
 soong_namespace {
     imports: [
         "hardware/qcom-caf/bootctrl",
-        "vendor/qcom/opensource/commonsys/packages/apps/Bluetooth",
     ],
 }
