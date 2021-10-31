@@ -1,0 +1,2 @@
+#Allow vendor_dpmd to connect to hal_dpmQMiMgr
+allow vendor_dpmd vendor_hal_dpmqmi_hwservice:hwservice_manager find;
