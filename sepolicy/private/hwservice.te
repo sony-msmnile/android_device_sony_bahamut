@@ -1,1 +1,3 @@
 type hal_display_hwservice, hwservice_manager_type;
+type vendor_hal_imsrcsd_hwservice, hwservice_manager_type, protected_hwservice;
+type vendor_hal_dpmqmi_hwservice, hwservice_manager_type, protected_hwservice;
