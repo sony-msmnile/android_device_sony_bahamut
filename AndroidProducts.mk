@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bahamut.mk
+    $(LOCAL_DIR)/evolution_bahamut.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_bahamut-user \
-    aosp_bahamut-userdebug \
-    aosp_bahamut-eng
+    evolution_bahamut-user \
+    evolution_bahamut-userdebug \
+    evolution_bahamut-eng
