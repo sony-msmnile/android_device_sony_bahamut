@@ -32,7 +32,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := evolution_bahamut
+PRODUCT_NAME := bliss_bahamut
 PRODUCT_MODEL := Xperia 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
