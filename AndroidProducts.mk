@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)bliss_bahamut.mk
+    $(LOCAL_DIR)/bliss_bahamut.mk
 
 COMMON_LUNCH_CHOICES := \
     bliss_bahamut-user \
