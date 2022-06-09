@@ -93,7 +93,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SemcCameraUI
 
 # Common init scripts
 PRODUCT_PACKAGES += \
