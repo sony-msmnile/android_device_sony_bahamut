@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_bahamut.mk
+    $(LOCAL_DIR)/evolution_bahamut.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_bahamut-user \
-    bliss_bahamut-userdebug \
-    bliss_bahamut-eng
+    evolution_bahamut-user \
+    evolution_bahamut-userdebug \
+    evolution_bahamut-eng
