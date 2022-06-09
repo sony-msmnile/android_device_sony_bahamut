@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common bliss stuff
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common evolution stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := UNOFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,7 +31,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := bahamut
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := bliss_bahamut
+PRODUCT_NAME := evolution_bahamut
 PRODUCT_MODEL := Xperia 5
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
