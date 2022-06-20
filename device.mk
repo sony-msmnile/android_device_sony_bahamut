@@ -28,8 +28,9 @@ $(call inherit-product, vendor/sony/bahamut/bahamut-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-evolution
+    
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -93,7 +94,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    SemcCameraUI
+    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
